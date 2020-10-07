@@ -43,8 +43,7 @@
             // angular.forEach(oldTarefas, function (trf) {
             //     if (!trf.feito)
             //         vm.tarefas.push(trf);
-            // });
-
+            // })
             vm.tarefas = vm.tarefas.filter(function (trf) { return !trf.feito });
         }
 
